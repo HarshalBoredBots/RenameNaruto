@@ -1,0 +1,20 @@
+# ── Telegram ──────────────────────────────────────────────────────────────────
+pyrogram==2.0.106
+TgCrypto              # C-based crypto — required by Pyrogram for speed
+
+# ── Database ──────────────────────────────────────────────────────────────────
+motor                 # Async MongoDB driver
+dnspython             # Required by motor to resolve mongodb+srv:// URIs
+
+# ── Media processing ──────────────────────────────────────────────────────────
+# NOTE: FFmpeg and FFprobe are SYSTEM BINARIES installed via Dockerfile (apt-get install ffmpeg).
+#       They are NOT pip packages. ffprobe (bundled with ffmpeg) powers the /mi MediaInfo command.
+Pillow                # Image operations — thumbnail resize, screenshot grid drawing
+hachoir               # Python-based media duration fallback (no subprocess needed)
+
+# ── HTTP / async I/O ─────────────────────────────────────────────────────────
+aiohttp               # Health-check web server (GET /) + Telegraph API calls for /mi
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+pytz                  # Timezone support — IST timestamps in log channel messages
+psutil

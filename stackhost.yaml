@@ -1,0 +1,27 @@
+user:
+  name: ishikki
+  github: ishikki-akabane
+
+language: "python"
+python_version: "3.13"
+
+commands:
+  build:
+    - "pip install -r requirements.txt"
+  package:
+    - "nano inxi"
+  start:
+    - "python3 bot.py"
+
+env:
+  - "ENVIRONMENT=production"
+  - "BOT_TOKEN="
+  - "API_ID="
+  - "API_HASH="
+  - "FORCE_SUB="
+  - "LOG_CHANNEL="
+  - "DB_NAME="
+  - "DB_URL="
+  - "START_PIC="
+  - "ADMIN="
+  - "WEBHOOK="

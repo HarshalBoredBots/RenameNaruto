@@ -1,0 +1,18 @@
+{
+  "name": "Rimuru Rename Bot",
+  "description": "Telegram File Renaming Bot — Rimuru Tempest Edition",
+  "keywords": ["telegram", "bot", "rename", "pyrogram"],
+  "env": {
+    "API_ID":         { "description": "Telegram API ID from my.telegram.org",          "required": true },
+    "API_HASH":       { "description": "Telegram API Hash from my.telegram.org",         "required": true },
+    "BOT_TOKEN":      { "description": "Bot token from @BotFather",                      "required": true },
+    "ADMIN":          { "description": "Your Telegram user ID (space-separated for multiple)", "required": true },
+    "DB_URL":         { "description": "MongoDB connection string (mongodb+srv://...)",  "required": true },
+    "DB_NAME":        { "description": "MongoDB database name",          "value": "RenameBot", "required": false },
+    "LOG_CHANNEL":    { "description": "Channel ID for rename logs (starts with -100)",  "required": true },
+    "BIN_CHANNEL":    { "description": "Channel ID for file copies (starts with -100)",  "required": true },
+    "STRING_SESSION": { "description": "Pyrogram string session for >2 GB file support (optional)", "required": false },
+    "START_PIC":      { "description": "Image URL shown on /start (optional)",           "required": false },
+    "FORCE_SUB":      { "description": "Channel username for force-subscribe gate (optional)", "required": false }
+  }
+}
