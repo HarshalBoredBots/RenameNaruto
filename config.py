@@ -7,8 +7,8 @@ import os
 
 class Config:
     # ── Telegram ──────────────────────────────────────────────────────────────
-    API_ID       = int(os.environ.get("API_ID", "28795512"))
-    API_HASH     = os.environ.get("API_HASH", "7a1ef55dbae63d63839a8dcba7d9521c")
+    API_ID       = int(os.environ.get("API_ID", "20140875"))
+    API_HASH     = os.environ.get("API_HASH", "a06fa97d5a853ec2da79015b11335a17")
     BOT_TOKEN    = os.environ.get("BOT_TOKEN", "8893679528:AAGFo8bxDDcH9ScocDNyFzK_oxsUukQ_cLs")
     ADMIN        = list(map(int, os.environ.get("ADMIN", "1828405916").split()))
 
