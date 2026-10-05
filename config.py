@@ -15,8 +15,8 @@ class Config:
     # ── Storage ───────────────────────────────────────────────────────────────
     DB_URL       = os.environ.get("DB_URL", "mongodb+srv://narutoclaude68_db_user:PZV9ZzKknvXpjYlQ@cluster0.wz6wl5t.mongodb.net/?appName=Cluster0")
     DB_NAME      = os.environ.get("DB_NAME", "RenameBot")
-    LOG_CHANNEL  = int(os.environ.get("LOG_CHANNEL", "-1002585613766"))
-    BIN_CHANNEL  = int(os.environ.get("BIN_CHANNEL", "-1002585613766"))
+    LOG_CHANNEL  = int(os.environ.get("LOG_CHANNEL", "-1004303151595"))
+    BIN_CHANNEL  = int(os.environ.get("BIN_CHANNEL", "-1004373712196"))
 
     # ── Media ─────────────────────────────────────────────────────────────────
     START_PIC      = os.environ.get("START_PIC", "https://ibb.co/FbxMWCXL")
