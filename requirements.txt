@@ -1,5 +1,5 @@
 # ── Telegram ──────────────────────────────────────────────────────────────────
-pyrogram==2.0.106
+wzgram
 TgCrypto              # C-based crypto — required by Pyrogram for speed
 
 # ── Database ──────────────────────────────────────────────────────────────────
