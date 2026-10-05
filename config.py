@@ -9,11 +9,11 @@ class Config:
     # ── Telegram ──────────────────────────────────────────────────────────────
     API_ID       = int(os.environ.get("API_ID", "28795512"))
     API_HASH     = os.environ.get("API_HASH", "7a1ef55dbae63d63839a8dcba7d9521c")
-    BOT_TOKEN    = os.environ.get("BOT_TOKEN", "7969812925:AAFi-VCAXTtykopi9_lkDoLAXGF33QvMt3w")
-    ADMIN        = list(map(int, os.environ.get("ADMIN", "6672752177").split()))
+    BOT_TOKEN    = os.environ.get("BOT_TOKEN", "8893679528:AAGFo8bxDDcH9ScocDNyFzK_oxsUukQ_cLs")
+    ADMIN        = list(map(int, os.environ.get("ADMIN", "1828405916").split()))
 
     # ── Storage ───────────────────────────────────────────────────────────────
-    DB_URL       = os.environ.get("DB_URL", "mongodb://prit092714_db_user:lOAH50s0alBM3nPu@ac-nnrf9nt-shard-00-00.jgbeo2s.mongodb.net:27017,ac-nnrf9nt-shard-00-01.jgbeo2s.mongodb.net:27017,ac-nnrf9nt-shard-00-02.jgbeo2s.mongodb.net:27017/?ssl=true&replicaSet=atlas-ff6qlt-shard-0&authSource=admin&appName=Cluster0")
+    DB_URL       = os.environ.get("DB_URL", "mongodb+srv://narutoclaude68_db_user:PZV9ZzKknvXpjYlQ@cluster0.wz6wl5t.mongodb.net/?appName=Cluster0")
     DB_NAME      = os.environ.get("DB_NAME", "RenameBot")
     LOG_CHANNEL  = int(os.environ.get("LOG_CHANNEL", "-1002585613766"))
     BIN_CHANNEL  = int(os.environ.get("BIN_CHANNEL", "-1002585613766"))
